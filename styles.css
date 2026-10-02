@@ -98,13 +98,14 @@ h1, h2, h3, p { margin: 0; }
 .expertise-grid p { max-width: 280px; margin-top: 13px; color: var(--muted); font-size: 15px; line-height: 1.6; }
 
 .background-section { padding-top: 110px; }
-.background-heading { padding-bottom: 70px; }
-.background-copy { display: grid; gap: 18px; color: var(--muted); font-size: 17px; line-height: 1.55; }
-.background-copy p:first-child { color: var(--ink); }
-.credential { border-top: 1px solid var(--rule); padding-top: 18px; }
-.credential h3 { color: var(--ink); font-size: 21px; line-height: 1.25; letter-spacing: -.035em; }
-.credential p { margin-top: 5px; font-size: 15px; }
-.credential .credential-id { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.background-heading { padding-bottom: 30px; }
+.background-grid { border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.background-grid > div { min-width: 0; padding: 28px 24px 26px 0; border-bottom: 1px solid var(--rule); }
+.background-grid > div + div { padding-left: 24px; border-left: 1px solid var(--rule); }
+.background-kind { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .12em; line-height: 1.4; text-transform: uppercase; }
+.background-grid h3 { margin-top: 12px; font-size: 21px; line-height: 1.2; letter-spacing: -.035em; }
+.background-grid h3 + p { margin-top: 12px; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.background-grid .credential-id { margin-top: 14px; color: var(--muted); font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
 .contact-section { padding-bottom: 110px; }
 .contact-heading { padding-bottom: 30px; }
 .contact-links { border-top: 1px solid var(--rule); }
@@ -131,7 +132,8 @@ h1, h2, h3, p { margin: 0; }
   .expertise-grid { grid-template-columns: 1fr; }
   .expertise-grid > div, .expertise-grid > div + div { padding: 22px 0; border-left: 0; }
   .expertise-grid p { max-width: 560px; }
-  .background-heading { padding-bottom: 60px; }
+  .background-grid { grid-template-columns: 1fr; }
+  .background-grid > div, .background-grid > div + div { padding: 22px 0; border-left: 0; }
   .contact-section { padding-bottom: 88px; }
 }
 
