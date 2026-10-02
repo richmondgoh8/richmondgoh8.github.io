@@ -12,8 +12,8 @@ From this directory, run `python3 -m http.server 8080` and open <http://127.0.0.
 
 GitHub Pages publishes the `main` branch from `/ (root)`. Push changes to `main` to update the site.
 
-The portfolio intentionally links to verified public repositories rather than claiming a live demo where one is not confirmed. Add a public email or professional social link to the **Elsewhere** section when you have chosen one to share.
+The site is a concise experience-led portfolio based on Richmond's résumé. It links to his email, LinkedIn, and GitHub. A phone number is intentionally not published.
 
 ## Update content
 
-Project descriptions and links are in `index.html`. Visual styles are in `styles.css`. Keep claims specific and verifiable, and replace projects as stronger work becomes public.
+Experience, technologies, and contact links are in `index.html`. Visual styles are in `styles.css`. Keep claims specific and grounded in the current résumé.
