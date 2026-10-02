@@ -71,7 +71,7 @@ h1, h2, h3, p { margin: 0; }
 .hero-facts li { font-size: 14px; font-weight: 700; line-height: 1.4; }
 .hero-facts span { display: block; margin-bottom: 7px; color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 
-.work-section, .expertise-section, .contact-section { scroll-margin-top: 24px; }
+.work-section, .expertise-section, .background-section, .contact-section { scroll-margin-top: 24px; }
 .section-heading { border-top: 1px solid var(--ink); padding-block: 25px 42px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 32px; }
 .section-heading h2 { margin-top: 12px; font-size: clamp(31px, 3.3vw, 44px); line-height: 1.06; letter-spacing: -.055em; }
 .section-heading > p { max-width: 390px; align-self: end; color: var(--muted); font-size: 16px; }
