@@ -6,12 +6,11 @@ A static, dependency-free portfolio for GitHub Pages. The site is plain HTML and
 
 From this directory, run `python3 -m http.server 8080` and open <http://127.0.0.1:8080>.
 
-## Publish
+## Live site
 
-1. Create a public GitHub repository named `richmondgoh8.github.io` under the `richmondgoh8` account.
-2. Push these files to its `main` branch.
-3. In the repository's **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. Check <https://richmondgoh8.github.io/> after GitHub finishes publishing.
+<https://richmondgoh8.github.io/>
+
+GitHub Pages publishes the `main` branch from `/ (root)`. Push changes to `main` to update the site.
 
 The portfolio intentionally links to verified public repositories rather than claiming a live demo where one is not confirmed. Add a public email or professional social link to the **Elsewhere** section when you have chosen one to share.
 
