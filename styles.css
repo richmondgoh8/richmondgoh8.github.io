@@ -101,6 +101,10 @@ h1, h2, h3, p { margin: 0; }
 .background-heading { padding-bottom: 70px; }
 .background-copy { display: grid; gap: 18px; color: var(--muted); font-size: 17px; line-height: 1.55; }
 .background-copy p:first-child { color: var(--ink); }
+.credential { border-top: 1px solid var(--rule); padding-top: 18px; }
+.credential h3 { color: var(--ink); font-size: 21px; line-height: 1.25; letter-spacing: -.035em; }
+.credential p { margin-top: 5px; font-size: 15px; }
+.credential .credential-id { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
 .contact-section { padding-bottom: 110px; }
 .contact-heading { padding-bottom: 30px; }
 .contact-links { border-top: 1px solid var(--rule); }
