@@ -12,8 +12,10 @@ From this directory, run `python3 -m http.server 8080` and open <http://127.0.0.
 
 GitHub Pages publishes the `main` branch from `/ (root)`. Push changes to `main` to update the site.
 
-The site is a concise experience-led portfolio based on Richmond's résumé. It features quick links and architecture highlights for his production PWAs (Air, Actually and Macro Longevity) and links to his email, LinkedIn, and GitHub. A phone number is intentionally not published.
+The site is a concise experience-led portfolio based on Richmond's résumé. It features quick links and architecture highlights for his production PWAs (Air, Actually, Macro Longevity, and Retirement Shield) and links to his email, LinkedIn, and GitHub. A phone number is intentionally not published.
 
 ## Update content
 
 Live PWAs, experience, technologies, and contact links are in `index.html`. Visual styles are in `styles.css`. Keep claims specific and grounded in the current résumé.
+
+Retirement Shield links to its Sites-hosted PWA and is labelled as sign-in access for approved viewers.

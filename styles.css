@@ -84,7 +84,7 @@ h1, h2, h3, p { margin: 0; }
 .apps-section, .work-section, .expertise-section, .background-section, .contact-section { scroll-margin-top: 24px; }
 .apps-grid { border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .app-card { padding: 36px 36px 36px 0; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; }
-.app-card + .app-card { padding-left: 36px; padding-right: 0; border-left: 1px solid var(--rule); }
+.app-card:nth-child(even) { padding-left: 36px; padding-right: 0; border-left: 1px solid var(--rule); }
 .app-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
 .app-kind { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .12em; line-height: 1.4; text-transform: uppercase; }
 .app-status { color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--accent); padding: 2px 7px; line-height: 1.2; }
@@ -156,7 +156,7 @@ h1, h2, h3, p { margin: 0; }
   .hero-quick-bar { flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 30px; }
   .apps-grid { grid-template-columns: 1fr; }
   .app-card { padding: 30px 0; }
-  .app-card + .app-card { padding-left: 0; border-left: 0; }
+  .app-card:nth-child(even) { padding-left: 0; border-left: 0; }
   .section-heading { grid-template-columns: 1fr; gap: 20px; padding-bottom: 36px; }
   .section-heading > p { align-self: auto; }
   .work-section, .expertise-section, .background-section { padding-top: 88px; }
@@ -191,3 +191,8 @@ h1, h2, h3, p { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.app-access-note { margin: 14px 0 0; font-size: 12px; color: var(--muted); line-height: 1.6; }
+/* The third showcase entry spans the row without leaving a partial divider. */
+.app-card:last-child:nth-child(odd) { grid-column: 1 / -1; padding-right: 0; }
+.app-card:last-child:nth-child(odd) .app-desc { max-width: 85ch; }
