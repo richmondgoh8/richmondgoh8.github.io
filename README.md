@@ -18,4 +18,4 @@ The site is a concise experience-led portfolio based on Richmond's résumé. It 
 
 Live PWAs, experience, technologies, and contact links are in `index.html`. Visual styles are in `styles.css`. Keep claims specific and grounded in the current résumé.
 
-Retirement Shield links to its Sites-hosted PWA and is labelled as sign-in access for approved viewers.
+Retirement Shield is hosted on GitHub Pages at <https://hazelah.me/retirement-shield/> with source at <https://github.com/richmondgoh8/retirement-shield>.
